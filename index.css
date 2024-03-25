@@ -1,0 +1,146 @@
+h1{
+    text-align: center;
+    color: rgb(141, 9, 86);
+    font-size: 40px;
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(35, 162, 247);
+    background-color:  rgb(35, 162, 247);
+    border-radius: 5px;
+   
+}
+#nav>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 120px ;
+}
+#nav{
+    width: 99%;
+    height: 30px;
+    border: 1px solid rgb(35, 162, 247);
+    margin-top: 22px;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+
+#desc{
+    width: 100%;
+    height: 500px;
+    border: 1px solid white;
+    display: flex;
+}
+#desc>.home{
+    width: 60%;
+    height: 500px;
+    border: 1px solid white;
+}
+#desc>.para{
+    width: 40%;
+    height: 500px;
+    border: 1px solid white;
+}
+.para>p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(35, 162, 247);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(35, 162, 247);
+   
+}
+#footer>.foot{
+    width: 80%;
+    height: 300px;
+    border: 1px solid rgb(35, 162, 247);
+    margin-left: 50px;
+    background-color: rgb(35, 162, 247);
+}
+#footer>.foot>h2{
+    text-align: center;
+    color: white;
+}
+#footer>.foot>a{
+  margin-left: 70px;
+  text-decoration: none;
+  line-height: 35px;
+  color: white;
+  font-size: 18px;
+  
+}
+
+/* about page */
+#abt{
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    margin: auto;
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* contact page */
+#contact{
+    width: 30%;
+    height: 330px;
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 5px;
+
+}
+#contact>p{
+    font-size: 19px;
+    margin-left: 80px;
+}
+
+/* book an appointment page */
+#book>.appoint{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 5px;
+}
+#book>.appoint>form>input{
+    width: 230px;
+    height: 25px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#book>.appoint>form>label{
+    margin-left: 40px;
+    font-size: 18px;
+   
+}
+#book>.appoint>form>button{
+    width: 250px;
+    height: 35px;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(6, 121, 106);
+    font-size: 18px;
+}
+/* product page  */
+#dream{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
